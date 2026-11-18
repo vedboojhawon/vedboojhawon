@@ -4,9 +4,9 @@ Senior RPA Engineer, Architect Track, Accenture Mauritius. Target: Automation So
 
 ## What I build
 
-**Desktop automation into Ariba and SAP.** Built: PAD flows orchestrated from Cloud flows against SAP S/4HANA and SAP Ariba, with Teams Adaptive Cards for human decisions. 
+**Desktop automation into SAP.** Problem: SAP S/4HANA and SAP Ariba tasks with no usable API, so people re-keyed data screen by screen. Built: Power Automate Desktop flows triggered and monitored from Cloud flows; business exceptions routed to a Teams Adaptive Card so a person decides and the flow resumes. Result: routine items run without re-keying; people handle only the exceptions.
 
-**Governed delivery.** Problem: hand-changed automations fail in production with no trace. Built: releases via Azure DevOps CI/CD under CAB protocols and CoE governance; Dataverse and RBAC control Power Apps access. 
+**Governed delivery.** Problem: flows edited directly in production cannot be traced or rolled back. Built: solutions promoted through Azure DevOps CI/CD pipelines, each release behind a CAB change record, inside Power Platform CoE governance; Dataverse with RBAC so each Power Apps role sees only its own data. Result: every production change traces to a pipeline run and an approved change.
 
 ## Skills
 
